@@ -60,6 +60,6 @@ pip install -r requirements.txt
 # Or manually install
 pip install pandas numpy scikit-learn matplotlib seaborn
 
-# Run the notebook or script
+# Run the code
 python <main.py>
 
