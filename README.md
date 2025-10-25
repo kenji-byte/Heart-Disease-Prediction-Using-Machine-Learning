@@ -61,5 +61,5 @@ pip install -r requirements.txt
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 # Run the notebook or script
-Go to the Google Colab website: https://colab.research.google.com
+python <main.py>
 
