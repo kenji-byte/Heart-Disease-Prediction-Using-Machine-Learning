@@ -2,26 +2,64 @@
 A machine learning project using the UCI Heart Disease Dataset to predict the presence of heart disease based on patient health attributes. The main goal of the project was to build a predictive model that can assist in early diagnosis, helping healthcare professionals take timely preventive measures.
 
 
+🚀 Model & Evaluation
 
- 🫀 Heart Disease Prediction Using Machine Learning
+The core of this project is a Gaussian Naive Bayes classifier. The model's performance was evaluated on the dataset, achieving the following result:
 
-This project predicts the presence of heart disease using medical patient information from the **UCI Heart Disease Dataset**.
+Accuracy: 85.33%
 
-✅ Model Used
-- Gaussian Naive Bayes Classifier
+Further evaluation metrics, including a detailed Confusion Matrix and Classification Report, are available within the project's analysis notebook.
 
-📊 Evaluation
-- **Accuracy:** 85.33%
-- **Confusion Matrix & Classification Report** generated in project
+📊 Key Features & Visualizations
 
-📌 Visualizations Included
-- Correlation Heatmap
-- ROC Curve
+This repository includes a complete data analysis workflow:
 
-🔧 Technologies
-- Python, Pandas, NumPy, Scikit-learn, Matplotlib
+Data Preprocessing: Cleaning and preparing the UCI dataset for modeling.
 
-✨ Future Scope
-- Try multiple ML models
-- Add web app deployment
-- Hyperparameter tuning
+Correlation Heatmap: A visualization to understand the relationships between different medical attributes.
+
+Model Training: Implementation of the Gaussian Naive Bayes algorithm.
+
+ROC Curve: A graphical plot illustrating the diagnostic ability of the classifier.
+
+🔧 Technologies Used
+
+The project is built using the standard Python data science and machine learning stack:
+
+Python
+
+Pandas (for data manipulation and analysis)
+
+NumPy (for numerical operations)
+
+Scikit-learn (sklearn) (for machine learning modeling and evaluation)
+
+Matplotlib / Seaborn (for data visualization)
+
+💡 Future Scope
+
+This project serves as a strong baseline. Future development could include:
+
+Model Comparison: Implementing and evaluating other classifiers (e.g., Logistic Regression, SVM, Random Forest) to compare performance.
+
+Hyperparameter Tuning: Optimizing model parameters using techniques like GridSearch CV to potentially improve accuracy.
+
+Web Application: Deploying the trained model as a simple web application (using Streamlit or Flask) for interactive predictions.
+
+📂 How to Use
+
+To run this project locally, clone the repository and install the required dependencies:
+
+# Clone the repository
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+cd your-repo-name
+
+# Install dependencies (assuming you have a requirements.txt)
+pip install -r requirements.txt
+
+# Or manually install
+pip install pandas numpy scikit-learn matplotlib seaborn
+
+# Run the notebook or script
+jupyter notebook analysis.ipynb
+
