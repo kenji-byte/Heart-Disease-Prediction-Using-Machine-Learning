@@ -1,0 +1,4 @@
+# Ignore these for language statistics
+*.csv linguist-vendored
+*.ipynb linguist-vendored
+data/* linguist-vendored
