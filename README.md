@@ -22,19 +22,7 @@ Model Training: Implementation of the Gaussian Naive Bayes algorithm.
 
 ROC Curve: A graphical plot illustrating the diagnostic ability of the classifier.
 
-# 🔧 Technologies Used
-
-The project is built using the standard Python data science and machine learning stack:
-
-Python
-
-Pandas (for data manipulation and analysis)
-
-NumPy (for numerical operations)
-
-Scikit-learn (sklearn) (for machine learning modeling and evaluation)
-
-Matplotlib / Seaborn (for data visualization)
+---
 
 # 💡 Future Scope
 
@@ -45,6 +33,8 @@ Model Comparison: Implementing and evaluating other classifiers (e.g., Logistic 
 Hyperparameter Tuning: Optimizing model parameters using techniques like GridSearch CV to potentially improve accuracy.
 
 Web Application: Deploying the trained model as a simple web application (using Streamlit or Flask) for interactive predictions.
+
+---
 
 # 📂 How to Use
 
@@ -58,8 +48,20 @@ Install dependencies (assuming you have a requirements.txt)
 pip install -r requirements.txt
 
 Or manually install
-pip install pandas numpy scikit-learn matplotlib seaborn
+pip install pandas numpy scikit-learn matplotlib
 
 Run the code
 python <main.py>
+
+---
+
+# 🔧 Technologies Used
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white)
+
+
+
 
