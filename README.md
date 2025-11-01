@@ -20,7 +20,6 @@ Correlation Heatmap: A visualization to understand the relationships between dif
 
 Model Training: Implementation of the Gaussian Naive Bayes algorithm.
 
-ROC Curve: A graphical plot illustrating the diagnostic ability of the classifier.
 
 ---
 
