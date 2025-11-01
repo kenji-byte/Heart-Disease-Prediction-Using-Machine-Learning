@@ -36,25 +36,6 @@ Web Application: Deploying the trained model as a simple web application (using 
 
 ---
 
-# 📂 How to Use
-
-To run this project locally, clone the repository and install the required dependencies:
-
-Clone the repository
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
-
-Install dependencies (assuming you have a requirements.txt)
-pip install -r requirements.txt
-
-Or manually install
-pip install pandas numpy scikit-learn matplotlib
-
-Run the code
-python <main.py>
-
----
-
 # 🔧 Technologies Used
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
